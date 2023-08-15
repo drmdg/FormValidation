@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <form novalidate>
+            <div class="formrow">
+                <label for="mail">
+                    <span>Please enter an email address:</span>
+                    <input type="email" id="mail" name="mail" />
+                    <span class="error" id="errorm"></span>
+                  </label>
+            </div>
+            <div class="formrow">
+                <label for="country">
+                    <span>Please enter your country:</span>
+                    <input type="text" id="country" name="country"  />
+                    <span class="error" id="errorc"></span>
+                  </label>
+            </div>
+            <div class="formrow">
+                <label for="zipcode">
+                    <span>Please enter your zip code:</span>
+                    <input type="number" id="zipcode" name="zipcode"  />
+                    <span class="error" id="errorz"></span>
+                  </label>
+            </div>
+            <div class="formrow">
+                <label for="password">
+                    <span>Please enter an password:</span>
+                    <input type="password" id="password" name="password" />
+                    <span class="error" id="errorp"></span>
+                  </label>
+            </div>
+            <div class="formrow">
+                <label for="passwordconfirm">
+                    <span>Please enter your password:</span>
+                    <input type="password" id="passwordconfirm" name="passwordconfirm" />
+                    <span class="error" id="errorpc"></span>
+                  </label>
+            </div>
+            <div class="formrow">
+                <button>Submit</button>
+            </div>
+            
+          </form>
+    </div>
+    
+
+      <script src="script.js"></script>
+</body>
+</html>
+
+
